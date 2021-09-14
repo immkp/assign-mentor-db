@@ -5,8 +5,7 @@ var mongoClient = mongodb.MongoClient
 
 app.use(express.json())
 
-var dbUrl =
-  'mongodb+srv://immkp:manas235@cluster0.dmlda.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' 
+var dbUrl =<mongo db url> 
 
 //api to create mentor records
 
